@@ -5,3 +5,7 @@
 
 startPosition=0
 finishPosition=100
+function rollDice(){
+	echo $((RANDOM%6+1))
+}
+rollDice
